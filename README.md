@@ -306,7 +306,8 @@ It indicates that your command line window is not properly initialized for Visua
 
 • If you are using Windows PowerShell, run the following commands:
 ```
-Import-Module "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\Tools\Microsoft.VisualStudio.DevShell.dll" Enter-VsDevShell 3f0e31ad -SkipAutomaticLocation -DevCmdArguments "-arch=x64 -host_arch=x64"
+Import-Module "C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\Tools\Microsoft.VisualStudio.DevShell.dll" Enter-VsDevShell <3f0e31ad> -SkipAutomaticLocation -DevCmdArguments "-arch=x64 -host_arch=x64"
 ```
+To get the exact instance id for Visual Studio please check [this link](https://learn.microsoft.com/en-us/visualstudio/install/tools-for-managing-visual-studio-instances?view=vs-2022)
 
 These steps will initialize your environment and allow you to use the correct Visual Studio tools.
